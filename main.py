@@ -4,15 +4,12 @@ import json
 
 BLOCKSIZE = 65536
 
+# READ APIKEY FROM FILE
 fapi = open("apikey.txt", "r")
-
-
 apiKey = fapi.readline()
-print(apiKey)
 
-inputFile = "dandandan.txt"
-
-
+# READ FILE NAME FROM USER
+inputFile = input("Enter name of file: ")
 
 hasher = hashlib.sha1()
 
