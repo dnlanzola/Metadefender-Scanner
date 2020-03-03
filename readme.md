@@ -10,6 +10,6 @@ Developed using Python 3.7.1 in Visual Studio Code.
 ### Instructions to run this program:
 * Use the provided file "apikey.txt" to provide your own API Key, simply paste your API key in the file.
 * Open terminal Linux/MacOS.
-* Type: "./metadefender.sh".
+* Type: "python3 main.py" 
 * The program will ask you to type the name of the file you want to scan.
 * Results will be displayed in screen.
